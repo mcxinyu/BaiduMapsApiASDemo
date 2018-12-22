@@ -62,7 +62,7 @@ public class PoiSearchDemo extends FragmentActivity implements
     private int loadIndex = 0;
 
     private LatLng center = new LatLng(39.92235, 116.380338);
-    private int radius = 1000;
+    private int radius = 100;
     private LatLng southwest = new LatLng( 39.92235, 116.380338 );
     private LatLng northeast = new LatLng( 39.947246, 116.414977);
     private LatLngBounds searchBound = new LatLngBounds.Builder().include(southwest).include(northeast).build();
